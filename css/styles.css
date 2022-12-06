@@ -1,19 +1,32 @@
+* {
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: gray;
+}
+
 h1 {
     font-size: 2rem;
     text-align: center;
 }
 
+.container {
+    background-color: lightgray;
+}
+
 .kanban {
     display: flex;
+    margin: auto;
     padding: 30px;
-    /* width: 1100px; */
-    /* background: rgb(141, 94, 153); */
+    /* max-width: 100%; */
     border-radius: 5px;
 }
 
-.kanban * {
+/* .kanban * {
     font-family: Georgia, 'Times New Roman', Times, serif;
-}
+} */
 
 .kanban-column {
     flex: 1;
@@ -26,7 +39,7 @@ h1 {
 .kanban-column-title {
     margin-bottom: 20px;
     font-size: 30px;
-    color: whitesmoke;
+    color: black;
     user-select: none;
 }
 
@@ -52,7 +65,7 @@ h1 {
     width: 100%;
     padding: 10px 0;
     font-size: 16px;
-    color: whitesmoke;
+    color: lightcoral;
     background: rgba(0,0,0,0.1);
     border: none;
     border-radius: 5px;

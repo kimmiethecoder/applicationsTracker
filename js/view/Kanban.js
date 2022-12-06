@@ -15,27 +15,47 @@ export default class Kanban {
         return [
             {
                 id: 1,
-                title: "Applications"
+                title: "Company Name"
             },
             {
                 id: 2,
-                title: "Submitted"
+                title: "Date Applied"
             },
             {
                 id: 3,
-                title: "Responses"
+                title: "Date Ended"
             },
             {
                 id: 4,
-                title: "Interviews"
+                title: " Current Status"
             },
             {
                 id: 5,
-                title: "Rejections"
+                title: "Date Rejected"
             },
             {
                 id: 6,
-                title: "Offers"
+                title: "Interview Date"
+            },
+            {
+                id: 7,
+                title: "Interview Status"
+            },
+            {
+                id: 8,
+                title: "Listing Link"
+            },
+            {
+                id: 9,
+                title: "Position / Title"
+            },
+            {
+                id: 10,
+                title: "Contact Information"
+            },
+            {
+                id: 11,
+                title: "Additional Notes"
             },
         ];
     }

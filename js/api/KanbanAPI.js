@@ -13,7 +13,7 @@ export default class KanbanAPI {
         const data = read();
         const column = data.find(column => column.id == columnId);
         const item = {
-            id: Math.floor(Math.random() * 1000000),
+            id: Math.floor(Math.random() * 100000),
             content
         };
 
@@ -107,6 +107,26 @@ function read() {
             },
             {
                 id: 6,
+                items: []
+            },
+            {
+                id: 7,
+                items: []
+            },
+            {
+                id: 8,
+                items: []
+            },
+            {
+                id: 9,
+                items: []
+            },
+            {
+                id: 10,
+                items: []
+            },
+            {
+                id: 11,
                 items: []
             },
         ];
