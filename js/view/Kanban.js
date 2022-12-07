@@ -47,7 +47,7 @@ export default class Kanban {
             },
             {
                 id: 9,
-                title: "Position / Title"
+                title: "Position / Title / Description"
             },
             {
                 id: 10,
